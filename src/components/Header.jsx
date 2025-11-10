@@ -12,7 +12,7 @@ const Header = () => {
         {/* Logo */}
         <div>
           <h1 className="text-[2.5rem] font-bold text-[#000] hover:text-[#fe5617] ">
-            Imran.
+            Prem.
           </h1>
         </div>
 
@@ -60,46 +60,46 @@ const Header = () => {
             } lg:hidden mt-3 flex justify-center gap-5`}
           >
             <a
-              href="https://github.com/AMOHAMMEDIMRAN"
+              href="https://github.com/Premdev05"
               className="  hover:text-[#fe5617] "
             >
               <FaGithub size={29} />
             </a>
             <a
-              href="https://www.linkedin.com/in/mohammedimrana/"
+              href="https://www.linkedin.com/in/prem-kumar00503/"
               className="hover:text-[#fe5617]"
             >
               <FaLinkedin size={29} />
             </a>
-            <a
+            {/* <a
               href="https://www.instagram.com/immucoder/?__pwa=1"
               className="hover:text-[#fe5617]"
             >
               <FaInstagram size={29} />
-            </a>
+            </a> */}
           </div>
         </nav>
 
         {/* Social Media Links */}
         <div className="hidden lg:flex w-[100px] items-center justify-between">
           <a
-            href="https://github.com/AMOHAMMEDIMRAN"
+            href="https://github.com/Premdev05"
             className="hover:text-[#fe5617]"
           >
             <FaGithub size={29} />
           </a>
           <a
-            href="https://www.linkedin.com/in/mohammedimrana/"
+            href="https://www.linkedin.com/in/prem-kumar00503/"
             className="hover:text-[#fe5617]"
           >
             <FaLinkedin size={29} />
           </a>
-          <a
+          {/* <a
             href="https://www.instagram.com/immucoder/?__pwa=1"
             className="hover:text-[#fe5617]"
           >
             <FaInstagram size={29} />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

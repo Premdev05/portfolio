@@ -1,7 +1,7 @@
 const Project = () => {
   return (
     <div id="project" className="bg-[#ffffff] min-h-screen flex items-center">
-      <div className="max-w-[90%] md:max-w-[75%] mx-auto font-inter space-y-10 py-10">
+      <div className="max-w-[90%] md:max-w-[75%] mx-auto font-inter space-y-10 ">
         {/* Header */}
         <h1 className="text-4xl md:text-5xl font-bold text-center text-[#fe5617]">
           My Projects
@@ -12,15 +12,14 @@ const Project = () => {
           {/* PetPals Project */}
           <div className="w-full md:w-1/2 flex flex-col items-center bg-[#F2EFE5] p-6 rounded-2xl shadow-lg">
             <h1 className="text-[#fe5617] font-extrabold text-[32px] mb-4">
-              PetPals
+              Tic-Tac-Toe-AI
             </h1>
             <p className="text-lg text-gray-700 mb-4">
-              A MERN stack pet adoption platform where users can adopt pets,
-              view profiles, and connect with animal shelters. Built using
-              MongoDB, Express, React, Node.js, and styled with Tailwind CSS.
+              A Tic-Tac-Toe game playing ai. Built using React, Node.js, and
+              styled with Tailwind CSS.
             </p>
             <a
-              href="https://petpalsss.netlify.app/login"
+              href="https://capable-sable-00f949.netlify.app/"
               className="text-[#fe5617] font-bold text-lg hover:underline"
             >
               Live Demo
@@ -28,7 +27,7 @@ const Project = () => {
           </div>
 
           {/* Biosta AI Project */}
-          <div className="w-full md:w-1/2 flex flex-col place-self-end bg-[#F2EFE5] p-6 rounded-2xl shadow-lg">
+          {/* <div className="w-full md:w-1/2 flex flex-col place-self-end bg-[#F2EFE5] p-6 rounded-2xl shadow-lg">
             <h1 className="text-center text-[#fe5617] font-extrabold text-[32px] mb-4">
               Biosta AI
             </h1>
@@ -43,16 +42,20 @@ const Project = () => {
             >
               Live Demo
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="flex flex-col md:flex-col gap-10">
           {/* PetPals Project */}
-          <div className="w-full md:w-1/2 flex flex-col items-center bg-[#F2EFE5] p-6 rounded-2xl shadow-lg">
+          {/* <div className="w-full md:w-1/2 flex flex-col items-center bg-[#F2EFE5] p-6 rounded-2xl shadow-lg">
             <h1 className="text-[#fe5617] font-extrabold text-[32px] mb-4">
               Npm-Libray-Logzap
             </h1>
             <p className="text-lg text-gray-700 mb-4">
-            Logzap is a minimalistic utility that simplifies your JavaScript logging. Instead of cluttering your code with console.log(), just use write() to log any data in a cleaner, more readable way. Perfect for developers who want to streamline their debugging process without compromising on clarity!
+              Logzap is a minimalistic utility that simplifies your JavaScript
+              logging. Instead of cluttering your code with console.log(), just
+              use write() to log any data in a cleaner, more readable way.
+              Perfect for developers who want to streamline their debugging
+              process without compromising on clarity!
             </p>
             <a
               href="https://www.npmjs.com/package/logzap"
@@ -60,15 +63,13 @@ const Project = () => {
             >
               Live Demo
             </a>
-          </div>
-
-         
+          </div> */}
         </div>
 
         {/* Project 3 and 4 in one row */}
         <div className="flex flex-col md:flex-col gap-10 mt-10">
           {/* CoderLobby Project */}
-          <div className="w-full md:w-1/2 flex flex-col place-self-end items-center bg-[#F2EFE5] p-6 rounded-2xl shadow-lg">
+          {/* <div className="w-full md:w-1/2 flex flex-col place-self-end items-center bg-[#F2EFE5] p-6 rounded-2xl shadow-lg">
             <h1 className="text-[#fe5617] font-extrabold text-[32px] mb-4">
               CoderLobby
             </h1>
@@ -83,10 +84,10 @@ const Project = () => {
             >
               Live Demo
             </a>
-          </div>
+          </div> */}
 
           {/* Cinerate Project */}
-          <div className="w-full md:w-1/2 flex flex-col  bg-[#F2EFE5] p-6 rounded-2xl shadow-lg">
+          {/* <div className="w-full md:w-1/2 flex flex-col  bg-[#F2EFE5] p-6 rounded-2xl shadow-lg">
             <h1 className="text-center text-[#fe5617] font-extrabold text-[32px] mb-4">
               Cinerate
             </h1>
@@ -100,13 +101,13 @@ const Project = () => {
             >
               Live Demo
             </a>
-          </div>
+          </div> */}
         </div>
 
         {/* Project 5 and 6 in one row */}
         <div className="flex flex-col md:flex-col gap-10 mt-10">
           {/* React Weather Pro Project */}
-          <div className="w-full md:w-1/2 flex flex-col place-self-end items-center bg-[#F2EFE5] p-6 rounded-2xl shadow-lg">
+          {/* <div className="w-full md:w-1/2 flex flex-col place-self-end items-center bg-[#F2EFE5] p-6 rounded-2xl shadow-lg">
             <h1 className="text-[#fe5617] font-extrabold text-[32px] mb-4">
               React Weather Pro
             </h1>
@@ -121,10 +122,10 @@ const Project = () => {
             >
               Live Demo
             </a>
-          </div>
+          </div> */}
 
           {/* Landing Pages Bundle */}
-          <div className="w-full md:w-1/2 flex flex-col  bg-[#F2EFE5] p-6 rounded-2xl shadow-lg">
+          {/* <div className="w-full md:w-1/2 flex flex-col  bg-[#F2EFE5] p-6 rounded-2xl shadow-lg">
             <h1 className="text-center text-[#fe5617] font-extrabold text-[32px] mb-4">
               Landing Pages Bundle
             </h1>
@@ -139,7 +140,7 @@ const Project = () => {
             >
               Live Demo
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

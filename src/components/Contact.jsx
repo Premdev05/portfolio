@@ -55,37 +55,37 @@ const Contact = () => {
           <div className="flex flex-col space-y-5 text-lg md:text-xl font-semibold">
             <div className="flex items-center gap-3">
               <FaLocationDot className="text-[#fe5617]" size={20} />
-              <span>Pondicherry</span>
+              <span>Tirupur</span>
             </div>
             <div className="flex items-center gap-3">
               <FaPhoneAlt className="text-[#fe5617]" size={20} />
-              <span>9092595881</span>
+              <span>6369340852</span>
             </div>
             <div className="flex items-center gap-3">
               <FaEnvelope className="text-[#fe5617]" size={20} />
-              <span>immucoder@gmail.com</span>
+              <span>premkumar200305@gmail.com</span>
             </div>
             <div className="flex flex-col items-center gap-3">
               <h2 className="text-xl font-bold">Follow on</h2>
               <div className="flex gap-4">
                 <a
-                  href="https://github.com/AMOHAMMEDIMRAN"
+                  href="https://github.com/Premdev05"
                   className="hover:text-[#fe5617]"
                 >
                   <FaGithub size={29} />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/mohammedimrana/"
+                  href="https://www.linkedin.com/in/prem-kumar00503/"
                   className="hover:text-[#fe5617]"
                 >
                   <FaLinkedin size={29} />
                 </a>
-                <a
+                {/* <a
                   href="https://www.instagram.com/immucoder/?__pwa=1"
                   className="hover:text-[#fe5617]"
                 >
                   <FaInstagram size={29} />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
